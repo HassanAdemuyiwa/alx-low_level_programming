@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define MAIN_
+#define MAIN_H
 /*
  * header - This is header file
  *
@@ -7,5 +7,5 @@
  */
 
 int _putchar(char c);
-
+int printf(const char *format, ...);
 #endif
