@@ -6,5 +6,5 @@
  * Return: Always 0.
  */
 
-int main(char c)
+int main(char)
 	return (0);
