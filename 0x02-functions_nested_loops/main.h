@@ -7,5 +7,4 @@
  */
 
 int _putchar(char c);
-int printf(const char *format, ...);
-#endif
+#endif /*MAIN_H*/
