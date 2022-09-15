@@ -2,7 +2,7 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-
+#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * positive_or_negative - Prints a random number and states either
@@ -22,4 +22,5 @@ void positive_or_negative(int n)
 		printf("%d is negative\n", n);
 	else
 		printf("%d is zero\n", n);
+	return (0);
 }
