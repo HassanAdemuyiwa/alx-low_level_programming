@@ -2,19 +2,17 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-#include "main.h"
 
 /* betty style doc for function main goes there */
 /**
- * main - Prints a random number and states either
+ * positive_or_negative - Prints a random number and states either
  * it is positive, negative, or zero.
- *
+ * @n: This is interger
  * Return: Always 0.
  */
 
-int main(void)
+void positive_or_negative(int n)
 {
-	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -24,5 +22,4 @@ int main(void)
 		printf("%d is negative\n", n);
 	else
 		printf("%d is zero\n", n);
-	return (0);
 }
