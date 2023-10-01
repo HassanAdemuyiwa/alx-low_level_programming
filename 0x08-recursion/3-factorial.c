@@ -10,7 +10,7 @@
 int factorial(int n)
 {
 	int fact = n;
-		
+
 	if (n < 0)
 	{
 		return (-1);
@@ -19,9 +19,6 @@ int factorial(int n)
 	{
 		return (1);
 	}
-	
 	fact *= factorial(n - 1);
-
 	return (fact);
 }
-				
