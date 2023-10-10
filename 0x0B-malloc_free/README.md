@@ -1,4 +1,4 @@
-##MALLOC AND FREE.
+## MALLOC AND FREE.
 **Malloc**
 - This a away of allocating memory to a function  from the memory heap.
 
