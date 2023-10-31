@@ -1,3 +1,3 @@
-#BIT MANIPULATION
+# BIT MANIPULATION
 
 **Bitwise Operation**
